@@ -1,0 +1,49 @@
+/* CSS THEORY */
+
+/* SELETTORE UNIVERSALE: seleziona TUTTI gli elemeni */
+* {
+    color: black;
+}
+
+/* SELETTORE DI TIPO/TAG: seleziona un tag specifico */
+p {
+    color: blue;
+    font-weight: 600;
+}
+
+h1 {
+    color: red;
+}
+
+/* SELETTORE DI GRUPPO */ 
+h3,h4 {
+    color: salmon;
+}
+
+p {
+    font-family: ;
+}
+
+/*SELETTORE DEI DISCENDENTI: seleziona TUTTI i p dentro il genitore*/
+article p {
+    color: blue;
+    background-color: yellow;
+}
+
+/*SELETTORE DEI FIGLI: seleziona solo i diretti discendenti */
+article>p {
+    color: yellow;
+    background-color: blue;
+}
+
+/* SELETTORE FRATELLO ADIACENTE: quindi tag uno vicino */
+h3 + h4 {
+    font-weight: 800;
+}
+
+/*SELETTORE IN BASE AD ATTRIBUTO */
+a[title] {
+
+}
+
+a[tiitle="abc"]

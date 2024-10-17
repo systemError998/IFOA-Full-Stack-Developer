@@ -1,0 +1,35 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    font-size: 3em;
+}
+
+.container1 {
+    display: flex;
+    /* FLEX-DIRECTION definisce la direzione degli elementi  */
+    flex-direction: row;
+    /* flex-direction: row-reverse; 
+    flex-direction: column;
+    flex-direction: column-reverse; */
+
+    /* FLEX WRAP per mandare a capo elementi quando non entrano più nella page,
+    ottimo per il responsive */
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap-reverse; */
+
+    /* JUSTIFY-CONTENT serve per allineare gli elementi ORIZZONTALMENTE */
+    justify-content: center;
+/*     justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: stretch; */
+    /* justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+
+    align-content: center;
+    align-content: space-between;
+    
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    background-color: #666666;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    font-size: 1em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 1em auto;
+}
+
+.postIt {
+    box-sizing: content-box;
+    height: 12em;
+    width: 12em;
+    border-radius: 3px;
+    box-shadow: inset 0px 0px 2px black;
+    box-shadow: 2px 2px 2px black;
+    padding: 1em;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    -webkit-transition: transform 0.3s ease;
+
+    animation: lancio 5s linear;
+    -webkit-animation: lancio 5s linear;
+}
+.postIt h2 {
+    font-weight: bold;
+    font-size: 3em;
+}
+.postIt p {
+    font-size: 2em;
+}
+
+.postIt:hover {
+    box-shadow: 3.5px 3.5px 3.5px black;
+    transform: scale3d(1.2,1.2,1.2);
+    -webkit-transform: scale3d(1.2,1.2,1.2);
+}
+@keyframes lancio {
+    0% {
+      transform: translateX(500%);
+    }
+    5% {
+        transform: translateX(300%);
+    }
+    10% {
+        transform: rotate(-90deg);
+    }
+    100% {
+        transform: rotate(-400deg)
+    }
+  }
+
+
+.postIt_1 {
+    background-color: #FBF0B7;
+    transform: rotate(-15deg);
+}
+.postIt_2 {
+    background-color: #FFB8C3;
+    transform: rotate(20deg);
+}
+.postIt_3 {
+    background-color: #6ECFEA;
+    transform: rotate(-17deg);
+}
+.postIt_4 {
+    background-color: #EFAF96;
+    transform: rotate(15deg);
+}
+.postIt_5 {
+    background-color: #6ECFEA;
+    transform: rotate(7deg);
+}
+.postIt_6 {
+    background-color: #EFAF96;
+    transform: rotate(-10deg);
+}
+.postIt_7 {
+    background-color: #FFB8C3;
+    transform: rotate(15deg);
+}
+.postIt_8 {
+    background-color: #FBF0B7;
+    transform: rotate(-7deg);
+}
+
+
+
+
+
+

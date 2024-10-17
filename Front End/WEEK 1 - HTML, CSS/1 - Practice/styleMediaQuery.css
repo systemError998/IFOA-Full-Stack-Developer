@@ -1,0 +1,127 @@
+/* Mobile  da 320 a 576*/
+@media (min-width: 320px) {
+    header {
+        margin-bottom: 1.5em;
+        padding: 2em 0.5em;
+    }
+
+    header nav li {
+        list-style: none;
+        display: inline;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h1 + p {
+        font-size: 0.8em;
+    }
+}
+
+/* Tablet da 576 a 768*/
+@media (min-width: 576px) {
+    header nav li {
+        list-style: none;
+        display: inline;
+        margin: 0.5em;
+    }
+
+    h1 + p {
+        font-size: 1em;
+    }
+
+    article h2 {
+        font-weight: bold;
+    }
+
+    table {
+        margin: 5em auto;
+    }
+}
+/* Fine media query Medium */
+
+/* // Da 768 a 1200 Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body {
+        line-height: 2;
+        font-size: 1.5em;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    header div {
+        margin-top: 1em;
+        font-size: 1em;
+    }
+
+    header div, header nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    header div img {
+        padding-left: 2em;
+        padding-bottom: 0.5em;
+        margin: 0 1em 0 0;
+        width: 10em;
+        height: 5em;
+    }
+    header nav {
+        padding-right: 1em;
+    }
+
+    table {
+        width: 70%;
+    }
+    iframe, section {
+        width: 50%;
+        height: 14em;
+    }
+    section {
+        float: right;
+        border-radius: 1.5em;
+    }
+    section h2 {
+        background-color: grey;
+    }
+    section p {
+        font-size: 1em;
+    }
+    aside {
+        padding: 0 0 8em 0;
+    }
+    aside div {
+        margin: 0 auto;
+        float: right;
+        width: 33%;
+        height: 9em;
+    }
+
+
+    form input {
+        padding: 1em;
+        width: 60%;
+    }
+    form button{
+        padding: 1em;
+    }
+
+    
+}
+
+/* //  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    footer address {
+        margin: 0 auto;
+        width: 50%;
+        font-size: 1.2em;
+    }
+}
+

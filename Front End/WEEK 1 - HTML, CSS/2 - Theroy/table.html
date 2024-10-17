@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <caption> Prima Tabella </caption>
+        <tr>
+            <th>NOME</th>
+            <th>COGNOME</th>
+            <th>CITTA'</th>
+        </tr>
+        <tr>
+            <td>Mario</td>
+            <td>Rossi</td>
+            <td>Roma</td>
+        </tr>
+        <tr>
+            <td colspan="2">Anna</td>
+            <td>Capanna</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <h1> FORM </h1>
+
+    <form action="paginaServer.php" method="get">
+        <fieldset>
+            <legend>Il mio form</legend> <!-- Titolo intorno bordo del form-->
+            <label for="username">Il tuo username</label> <!-- Etichetta posta prima dell'input -->
+            <input id="username" name="username" type="text" autofocus placeholder="example"> <!-- Input che utente deve inserire -->
+                                                                        <!-- autofocus per immettere subito dati negli input -->
+            <!-- readonly = campo di sola lettura
+                 required  = campi obbligatori
+                 value  = testo GIà scritto nell'input -->
+
+            <textarea name="commenti" id="commenti" cols="30" rows="10" placeholder="Scrivi i commenti"></textarea>
+            <button type="submit"> Invia </button disabled> <!-- Bottone per INVIO DATI -->
+                                                            <!-- disabled per disabilitare un pulsante o un input -->
+            <button type="reset"> Reset </button> <!-- Bottone per RESET CAMPI -->
+        </fieldset>
+    </form>
+
+    <form action="pagina.server.php">
+        <fieldset>
+            <label for="linguaggi"> Linguaggi conosciuti? </label>
+            <select name="linguaggi" id="linguaggi">
+                <optgroup label="Back-end">
+                    <option value="javacript"> Laravel </option> <!-- value, il valore che viene inviato al server -->
+                    <option value=""> PHP </option> 
+                </optgroup>
+
+                <optgroup label="Front-end">
+                    <option value="">JavaScript</option>
+                    <option value="">React</option>
+                </optgroup>
+            </select>
+        </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend> Checkbox , Radio </legend>
+            
+
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <iframe src="https://www.nodejsera.com/30-days-of-node.html" frameborder="0" width="" height="">
+
+</body>
+</html>
+

@@ -1,0 +1,182 @@
+/* Font
+Headings: #25a2c3 – Montserrat (bold) – interlinea 1.5
+Footer: #c8e7f0
+Footer Heading: white
+Footer link: #c8e7f0
+
+Colori sfondo
+Header: black
+Pulsante: #f04c2f – Montserrat (bold) – bold
+Testimonianze: #e22d0e
+Footer: #25a2c3
+
+Bordi
+Bordo schede: #dee1e3
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap');
+
+
+body {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    font-size: 1.2rem; /* MISURA ROOT */
+    line-height: 1.65;
+}
+
+.container {
+    width: 500px;
+}
+
+header #logo {
+    text-align: center;
+    background-color: black;
+    padding: 60px;
+}
+
+header #logo img {
+    width: 40%;
+}
+
+#banner {
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    padding: 30px;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+#banner h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    font-size: 3rem;
+    margin: 1em 0 0.8em 0;
+    line-height: 1;
+}
+
+#banner p {
+    font-size: 1.5em;
+}
+
+#banner button {
+    height: 4.2rem;
+    width: 13rem;
+    border-radius: 8px;
+    margin: 2em 0 2em 0;
+    color: white;
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+}
+
+#banner button:hover{
+    cursor: pointer;
+}
+
+main {
+    text-align: center;
+    padding: 2em;
+}
+
+main #first_section h3, section h3{
+    margin-top: 2em;
+    color: #25a2c3;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+main #first_section p, section p {
+    font-size: 1.2em;
+    margin-bottom: 3em;
+}
+
+main #first_section img {
+    border-radius: 50%;
+}
+
+#first_section article {
+    color: #fff;
+    background-color: #f04c2f;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+#first_section article h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em !important;
+}
+
+#first_section article p {
+    margin-bottom: 0.5em !important;
+}
+
+#nome_ceo {
+    font-size: 1.5em;
+}
+
+#italic {
+    font-style: italic;
+}
+
+section img {
+    width: 100%;
+}
+
+section>div {
+    margin: 2em 0 2em 0;
+    border: 1px solid #dee1e3;
+    border-radius: 0 0 8px 8px;
+}
+
+footer {
+    color: #fff;
+    background-color: #25a2c3;
+    text-align: center;
+    margin-top: 0;
+}
+
+footer p:first-child {
+    padding-top: 2em;
+    font-size: 2em;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer p:last-child {
+    padding-bottom: 4em;
+}
+
+hr {
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

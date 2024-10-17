@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+/*  Mobile First. da 0 a 767px */
+body {
+    color: #732104;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.container {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    width: 90%;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #732104;
+}
+
+#logo {
+    width: 1.5em;
+    margin-right: 0.5em;
+}
+.menu {
+    box-sizing: content-box;
+    margin-top: 1em;
+    background: #FEF7E2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5em;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.title {
+    order: -1;
+    align-self: center;
+    flex-basis: 100%;
+}
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.menu ul li {
+    width: 40%;
+    font-weight: bold;
+    list-style: none;
+    background-color: #FFDF7F;
+    padding: 1em 0.5em;
+    margin: 0.5em 0;
+    border-radius: 10em;
+    height: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* FINE NAV MENU  */
+
+/* CARD SHOP DIV */
+.shop h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1.1em;
+    letter-spacing: 1px;
+}
+.shop h2 span {
+    display: block;
+}
+.card {
+    box-sizing: content-box;
+    line-height: 1.5em;
+    margin-top: 3em;
+    border-radius: 3.5em;
+    overflow: hidden;
+    background: #FEF7E2;
+    font-size: 1.1em;
+}
+
+.product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em 0;
+}
+.productName {
+    font-weight: bold;
+}
+.productName span:first-child {
+    font-weight: 400;
+}
+.product span {
+    display: block;
+}
+.card button {
+    background-color: #FFDF7F;
+    padding: 1em 5em;
+    border: none;
+    border-radius: 10em;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 0 1em 0;
+}
+/* FINE SHOP  */
+
+/* START NEWS SECTION */
+.news {
+    margin-top: 5em;
+}
+.news h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0 0 0.5em 0;
+}
+.latestNews {
+    background: #FEF7E2;
+    border-radius: 3.5em;
+    text-align: left;
+    line-height: 1.5;
+    padding: 2em;
+}
+.latestNews h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0 0 1em 0;
+    letter-spacing: 0.1em;
+}
+
+.latestNews img {
+    margin-top: 2em;
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .menu {
+        background: #FEF7E2;
+        border-radius: 0;
+        width: 100%;
+        margin: 0;
+        padding: 1em;
+        margin-bottom: 2em;
+    }
+    .menu ul li {
+        width: 15%;
+        margin: 1em 0.1em;
+    }
+    .title {
+        order: 3;
+        flex-basis: 15%;
+        margin: 0;
+    }
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%; 
+        margin: 0;
+    }
+    .li_One {
+        order: 1;
+    }
+    .li_Two {
+        order: 2;
+    }
+    .li_Three {
+        order:4;
+    }
+    .li_Four {
+        order:5;
+    }
+    /* CARD SHOP DIV */
+.shop {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop h2 {
+    text-align: left;
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1.1em;
+    letter-spacing: 1px;
+    margin: 0 0 0.5em 0.5em;
+    display: inline;
+}
+.shop h2 span {
+    margin-left: 0.3em;
+    display: inline;
+}
+.shop .lastCard {
+    display: none;
+}
+.card {
+    box-sizing: content-box;
+    line-height: 1.5em;
+    margin-top: 3em;
+    border-radius: 3.5em;
+    background: #FEF7E2;
+    font-size: 1.1em;
+    width: 50%;
+}
+.card img {
+    border-radius: 3em 3em 0 0;
+}
+.product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em 0;
+}
+.productName {
+    font-weight: bold;
+}
+.productName span:first-child {
+    font-weight: 400;
+}
+.product span {
+    display: block;
+}
+.card button {
+    background-color: #FFDF7F;
+    padding: 1em 5em;
+    border: none;
+    border-radius: 10em;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 0 1em 0;
+}
+/* FINE SHOP  */
+.news h3 {
+    text-align: left;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0 0 0.5em 1em;
+}
+
+} /* FINE MEDIA QUERY TABLET  */
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .menu {
+        background: #FEF7E2;
+        background: red;
+        border-radius: 0;
+        width: 20%;
+        position: fixed;
+        height: 100%;
+        margin: 0;
+    }
+    .menu ul {
+        margin-top: 0;
+    }
+    .menu ul li {
+        width: 10em;
+        margin: 0.5em 0.1em;
+        height: 3.5em;
+    }
+    .title {
+        order: -1;
+        flex-basis: 100%;
+        margin: 0;
+    }
+    .li_One {
+        order: 1;
+    }
+    .li_Two {
+        order: 2;
+    }
+    .li_Three {
+        order:4;
+    }
+    .li_Four {
+        order:5;
+    }
+    /* CARD SHOP DIV */
+.shop {
+    margin: 0 0 0 25%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop h2 {
+    text-align: left;
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1.1em;
+    letter-spacing: 1px;
+    margin: 0 0 0.5em 0.5em;
+}
+.shop h2 span {
+    margin-left: 0.3em;
+    display: inline;
+}
+.shop .lastCard {
+    display: none;
+}
+.card {
+    box-sizing: content-box;
+    line-height: 1.5em;
+    margin-top: 3em;
+    border-radius: 3.5em;
+    background: #FEF7E2;
+    font-size: 1.1em;
+    width: 50%;
+}
+.card img {
+    border-radius: 3em 3em 0 0;
+}
+.product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em 0;
+}
+.productName {
+    font-weight: bold;
+}
+.productName span:first-child {
+    font-weight: 400;
+}
+.product span {
+    display: block;
+}
+.card button {
+    background-color: #FFDF7F;
+    padding: 1em 5em;
+    border: none;
+    border-radius: 10em;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 0 1em 0;
+}
+/* FINE SHOP  */
+.news h3 {
+    text-align: left;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0 0 0.5em 1em;
+}
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }

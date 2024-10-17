@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+    margin: 0 auto;
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+#logo {
+    background-color: #000000;
+    height: 30vh;
+}
+
+#logo img {
+    padding: 8vh;
+}
+
+#banner {
+    background-image: url('assets/banner.jpg');
+    background-size: cover;
+    margin-top: 0;
+    padding: 15vh;
+}
+
+#banner h1 {
+    color: #25a2c3;
+    font-size: 4rem;
+}
+
+#banner p {
+    font-size: 1.7rem;
+}
+
+#banner button {
+    width: 25vw;
+    background-color: #f04c2f;
+    border: none;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+#banner button:hover {
+    cursor: pointer;
+}
+
+h3 {
+    color: #25a2c3;
+}
+
+#first_section {
+    padding: 2rem;
+}
+
+#notebook {
+    display: inline-block;
+    float: left;
+}
+
+#notebook img {
+    border-radius: 50%;
+}
+
+#notebook_aside {
+    padding: 1em;
+    display: inline-block;
+    text-align: left;
+    margin-left: 3rem;
+}
+
+#ceo_section {
+    padding: 2.5rem 0 2.5rem 0;
+    background-color: #f04c2f;
+    color: #fff;
+    font-size: 1rem;
+}
+
+#ceo_section h2 {
+
+}
+
+#ceo_section h4 {
+    font-style: italic;
+}
+
+#ceo_section p:first-of-type {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+#ceo_section p:last-of-type {
+    margin-top: 0;
+    font-size: 0.8rem;
+}
+
+#second_section {
+    margin: 0 auto;
+}
+
+div section {
+    width: 20rem;
+    margin: 2em;
+    display: inline-block;
+    border: 1px solid #dee1e3;
+    border-radius: 0 0 8px 8px;
+}
+
+div section img{
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #25a2c3;
+    margin-top: 10vh auto;
+    padding: 5rem;
+    color: #fff;
+}
+
+footer div {
+    display: inline-block;
+    text-align: left;
+}
+
+footer p:first-child {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+address a {
+    color: #fff;
+}
+
+
