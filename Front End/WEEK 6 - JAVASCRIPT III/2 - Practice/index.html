@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Tempo trascorso: <span class="timer"> </span> </h2>
+
+    <form action="/form/submit" method="get">
+        <label>Inserisci il tuo username</label>
+        <input type="text" name="first_name" />
+        <button class="save" type="button">Save to localStorage</button>
+        <button class="cancel" type="button">Remove to localStorage</button>
+        <button class="clear" type="button">Clear All</button>
+    </form>
+
+    <div>
+        <h3> Username salvati: </h3> 
+        <div class="savedUser">
+
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

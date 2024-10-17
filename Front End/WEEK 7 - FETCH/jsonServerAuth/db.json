@@ -1,0 +1,98 @@
+{
+  "users": [
+    {
+      "email": "tuvis@mailinator.com",
+      "password": "$2a$10$1H7h58BHynotWMzEK7.EhOy6fc0L9cM8P3mWBkQsKOHjXBk77P8QC",
+      "name": "Holly Le",
+      "surname": "Valencia",
+      "age": "32",
+      "id": 1
+    },
+    {
+      "email": "nerotaj@mailinator.com",
+      "password": "$2a$10$tlEVPmdCqZRWB/j5UKj61OpJtE7a6COHTMWAhmuDSDld.oRn8nau2",
+      "name": "Nayda Atkins",
+      "surname": "Reilly",
+      "age": "57",
+      "id": 2
+    },
+    {
+      "email": "jidoko@mailinator.com",
+      "password": "$2a$10$fsSZmDlqg3nEX/K0SNxfZu0.ODBHjBzCQf1qTH5QCqQf8V34zQ8AG",
+      "name": "Callum George",
+      "surname": "Foreman",
+      "age": "67",
+      "id": 3
+    },
+    {
+      "email": "paqeqijuxi@mailinator.com",
+      "password": "$2a$10$32nntx8CTsQsLa9XEO5lfenYg1z6nuVcRNz.xHWiJEDFCEPJZV5zi",
+      "name": "Kennan Mckinney",
+      "surname": "George",
+      "age": "20",
+      "id": 4
+    },
+    {
+      "email": "fycy@mailinator.com",
+      "password": "$2a$10$9HDlzfud2p1tBBTd9n4NruANgHpMh/ELXLwwnCQL9GkaLzf/KVziy",
+      "name": "Nasim Patterson",
+      "surname": "Michael",
+      "age": "10",
+      "id": 5
+    },
+    {
+      "email": "xumyjotup@mailinator.com",
+      "password": "$2a$10$gNznV0bbIVFKave2kPI9K.H1BLRbQ/gEMJB7E0IrSa.FUA6ObABDS",
+      "name": "Lyle Reynolds",
+      "surname": "Gould",
+      "age": "15",
+      "id": 6
+    },
+    {
+      "email": "dipy@mailinator.com",
+      "password": "$2a$10$FLKmWj7OGnArDaTGPOsBo.FYq5UHfqXCDmQZCHM3S0uZG0GINqtH2",
+      "name": "Brenda Barrett",
+      "surname": "Wiley",
+      "age": "92",
+      "id": 7
+    },
+    {
+      "email": "ginaqixy@mailinator.com",
+      "password": "$2a$10$S8GA6mj7sYX9vR99iqNcTeZ3a8EN4G0waR4IVCQ9kPRmQ1ESwi52C",
+      "name": "Cameron Lindsay",
+      "surname": "Arnold",
+      "age": "10",
+      "id": 8
+    }
+  ],
+  "products": [
+    {
+      "name": "Colette Gonzales",
+      "description": "Qui nostrum dolore f",
+      "price": "530",
+      "image": "https://picsum.photos/200/200",
+      "id": 1
+    },
+    {
+      "name": "Colette Gonzales",
+      "description": "Qui nostrum dolore f",
+      "price": "530",
+      "image": "https://picsum.photos/200/200",
+      "id": 2
+    },
+    {
+      "name": "Jennifer Rodriquez",
+      "description": "Earum optio rerum m",
+      "price": "302",
+      "image": "https://picsum.photos/200/200",
+      "id": 3
+    },
+    {
+      "name": "Shannon Gay",
+      "description": "Minim exercitationem",
+      "price": "486",
+      "image": "https://picsum.photos/200/200",
+      "id": 4
+    }
+  ]
+}

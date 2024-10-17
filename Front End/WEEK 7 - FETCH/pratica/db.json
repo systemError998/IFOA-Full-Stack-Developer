@@ -1,0 +1,115 @@
+{
+  "users": [
+    {
+      "email": "ale@gmail.com",
+      "password": "$2a$10$aU8PPiBteM/lBSCZwRwJK.HZoYzJjMNWfwpZxAUkJ6KM2LGar9zUW",
+      "name": "Alefsddfsdsadasd",
+      "Surname": "Dalla Costadfsadsadciao",
+      "id": 1
+    },
+    {
+      "email": "dio@gioco.it",
+      "password": "$2a$10$3peeWMoqM1u5xkXpD7MToekI0WVvLvJsNJgOwLPZS.UCr03FWXDGi",
+      "name": "anna",
+      "surname": "ciao",
+      "age": "12",
+      "id": 2
+    },
+    {
+      "email": "ale@dellacosta.it",
+      "password": "$2a$10$dhbQYampd.RGEFIxeTbCBeMVxr8uy1G9zvhhI76leU9yQxaGTWpCy",
+      "name": "alessandro",
+      "surname": "della costa",
+      "age": "32",
+      "id": 3
+    },
+    {
+      "email": "annacerasoli998@gmail.com",
+      "password": "$2a$10$OLh9F0Uf4OvfSU8hxbqoxuYvE9bzUEQi32fd19Aq1uP8WXzgX.AZW",
+      "name": "vxcvxc",
+      "surname": "vxcvxc",
+      "age": "32",
+      "id": 4
+    },
+    {
+      "email": "ciao@gmail.com",
+      "password": "$2a$10$VjfeMJKtTFMiVMCaKW8BQenUwGjUo2S6dxCoIHZLaBSB3CKiMJJxa",
+      "name": "ciao",
+      "surname": "ciao",
+      "age": "32",
+      "id": 5
+    },
+    {
+      "email": "anna@gmail.com",
+      "password": "$2a$10$ROXyBstIpTnB.t4gf/3CruycdAQZ8VGW2m8.qs7SQ/0sW5E1B5Lt.",
+      "name": "anna",
+      "surname": "ciao",
+      "age": "32",
+      "id": 6
+    },
+    {
+      "email": "anna@banana.it",
+      "password": "$2a$10$/0l4xOlq9nTcJwsw8aiZWeHe83MzVlGr0EjqKZtJmk523QHy/Ve66",
+      "name": "anna",
+      "surname": "banana",
+      "age": "12",
+      "id": 7
+    },
+    {
+      "email": "anna@banana.it",
+      "password": "$2a$10$upb812DBoxB/PTb0N6Re/eATz8.B3/rqmJKYe9.q84fJj.jnh03qe",
+      "name": "anna",
+      "surname": "banana",
+      "age": "12",
+      "id": 8
+    },
+    {
+      "email": "kiki@live.it",
+      "password": "$2a$10$Q8wXHk2cYmB.OxQpvSyw2uTSxszqmIbSONPR/LlTbnDjAu/e1z7/m",
+      "name": "arca",
+      "surname": "ngelo",
+      "age": "12",
+      "id": 9
+    },
+    {
+      "email": "ciao@ciao.it",
+      "password": "$2a$10$MYiKhBoR4aSIPFWPbI956uvR5JCjEQUumwlqRNvog6lJNwt/cVrRy",
+      "name": "ciao",
+      "surname": "ciao",
+      "age": "12",
+      "id": 10
+    },
+    {
+      "email": "anna@live.it",
+      "password": "$2a$10$nScdfJaTtKnCJJGktCZc/.6.4AdzBm/cMQnNMVVYL.3TKekgpuoHC",
+      "name": "Anna",
+      "surname": "Cerasoli",
+      "age": "12",
+      "id": 11
+    },
+    {
+      "email": "anna@live.it",
+      "password": "$2a$10$Q2WyVXUkRnW3I.Ua/Vs/9OAt7s7ky9quJph0MCuzGPWVE2gb8DwCe",
+      "name": "Anna",
+      "surname": "Cerasoli",
+      "age": "12",
+      "id": 12
+    },
+    {
+      "email": "anna@live.it",
+      "password": "$2a$10$4BwpYcBQEROmAmizaSPrJu8QqP8QbRQD7dSMkHWDoJV12kxaxCK72",
+      "name": "Anna",
+      "surname": "Cerasoli",
+      "age": "12",
+      "id": 13
+    },
+    {
+      "email": "anna@live.it",
+      "password": "$2a$10$kE01W9h03xTHo1ZSGEuDuelp1bNNEeNIxbXBwJgg5vl/zzS/banUS",
+      "name": "Anna",
+      "surname": "Cerasoli",
+      "age": "12",
+      "id": 14
+    }
+  ]
+}
