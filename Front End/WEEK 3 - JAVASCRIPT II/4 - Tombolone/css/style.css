@@ -1,0 +1,71 @@
+body {
+    background-color:  #D9B596;
+    font-size: 1em;
+}
+
+h1 {
+    text-align: center;
+    padding: 1em;
+}
+
+#tabellone {
+    margin: 0 1.5em;
+    text-align: center;
+}
+
+.cellaTabellone {
+    line-height: 4;
+    padding: 0.1em;
+    text-align: center;
+    background-color: #D9B596;
+    width: 4em;
+    height: 4em;
+    display: inline-block;
+    border: 0.7em solid #A60321;
+    border-radius: 50%;
+    font-size: 1em;
+    font-weight: bold;
+    color: #A60321 ;
+}
+
+#tabellina {
+    width: 45%;
+}
+
+.cellaTabellina {
+    line-height: 3;
+    padding: 0.1em;
+    text-align: center;
+    background-color: #D9B596;
+    width: 3em;
+    height: 3em;
+    display: inline-block;
+    border: 0.7em solid #A63F03;
+    border-radius: 50%;
+    font-size: 1em;
+    font-weight: bold;
+    color: #A63F03 ;
+}
+
+
+
+/* Color Theme Swatches in Hex */
+.i-numeri-della-tombola-1-hex { color: #D90416; }
+.i-numeri-della-tombola-2-hex { color: #D9042B; }
+.i-numeri-della-tombola-3-hex { color: #A60321; }
+.i-numeri-della-tombola-4-hex { color: #D9B596; }
+.i-numeri-della-tombola-5-hex { color: #A63F03; }
+
+/* Color Theme Swatches in RGBA */
+.i-numeri-della-tombola-1-rgba { color: rgba(216, 4, 22, 1); }
+.i-numeri-della-tombola-2-rgba { color: rgba(216, 4, 43, 1); }
+.i-numeri-della-tombola-3-rgba { color: rgba(165, 3, 33, 1); }
+.i-numeri-della-tombola-4-rgba { color: rgba(216, 180, 149, 1); }
+.i-numeri-della-tombola-5-rgba { color: rgba(165, 62, 3, 1); }
+
+/* Color Theme Swatches in HSLA */
+.i-numeri-della-tombola-1-hsla { color: hsla(354, 96, 43, 1); }
+.i-numeri-della-tombola-2-hsla { color: hsla(348, 96, 43, 1); }
+.i-numeri-della-tombola-3-hsla { color: hsla(348, 96, 33, 1); }
+.i-numeri-della-tombola-4-hsla { color: hsla(28, 46, 71, 1); }
+.i-numeri-della-tombola-5-hsla { color: hsla(22, 96, 33, 1); }

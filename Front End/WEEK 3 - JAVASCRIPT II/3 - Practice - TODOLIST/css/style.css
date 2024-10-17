@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Pacifico&display=swap');
+
+
+
+body {
+    width: 100vw;
+    margin: 0 auto;
+    background-color: rgba(216, 190, 143, 1);
+    background-size: cover; 
+    font-family: 'Lobster', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#title {
+    height: 3em;
+    margin-bottom: 2em;
+    background-color: rgba(165, 108, 74, 1);
+    padding: 3.5em;
+}
+
+#title h1 {
+    color: rgba(12, 12, 12, 1);
+    font-family: 'Fondamento';
+    font-weight: bold;
+    font-size: 3em;
+}    
+
+form input {
+    width: 20em;
+    margin: 0 auto 1em;
+    border-radius: 10px;
+    padding: 0.8em;
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+form button {
+    margin: 0 auto 3em;
+    border-radius: 20%;
+    padding: 0.5em;
+    background-color: #B4AAA0;
+}
+
+
+ul li {
+    list-style: none;
+    border-radius: 5px;
+    padding: 0.1em;
+    font-size: 2em;
+}
+
+#toDoList button {
+    background-color: #B4AAA0;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    padding: 0.5em;
+    margin-left: 5em;
+}
+
+#toDoList button, form button {
+    border: 2px solid rgba(12, 12, 12, 1);
+    background-color: rgba(165, 108, 74, 1);
+}
+
+#toDoList button:hover, form button:hover {
+    cursor: pointer;
+    border-collapse: collapse;
+    border-color: rgba(112, 114, 60, 1);
+    background-color: rgba(165, 159, 67, 1);
+}
+
+
+
