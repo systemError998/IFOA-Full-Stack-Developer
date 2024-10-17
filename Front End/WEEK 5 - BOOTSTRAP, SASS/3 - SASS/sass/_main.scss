@@ -1,0 +1,33 @@
+/* main {
+    background-color: yellowgreen;
+    text-align: center;
+    border: 1px solid black;
+}
+
+main h2 {
+    font-style: italic;
+}
+
+main p {
+    text-decoration: underline;
+} */
+
+/* NESTING */
+main {
+    background-color: yellowgreen;
+    text-align: center;
+    border: 1px solid black;
+    h2 {
+        font-style: italic;
+    }
+    p {
+        text-decoration: underline;
+    }
+    a {
+        color: red;
+        &:hover {
+            color: fuchsia;
+        }
+    }
+    
+}

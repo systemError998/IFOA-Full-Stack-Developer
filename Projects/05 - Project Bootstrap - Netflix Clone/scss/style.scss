@@ -1,0 +1,133 @@
+@import 'overrideBs';
+
+body {
+    background-color: #141414;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    font-weight: bold;
+  }
+}
+
+nav {
+  background-image: linear-gradient(to bottom, #000000, #060606, #0b0b0b, #101010, #141414);
+}
+
+.navbar li {
+    color: #fff;
+}
+
+.card {
+    width: 18rem;
+}
+
+.logo {
+    width: 7rem;
+}
+
+.iconz {
+    width: 2.3rem;
+}
+
+.mainProfile {
+  margin-left: 25%;
+  margin-right: 10%;
+  color: #fff;
+}
+.profileAvatar {
+  width: 10rem;
+  height: 10rem;
+}
+.bi-pencil-square {
+  position: absolute;
+  top: 8.5rem;
+  left: 0.5rem;
+  cursor: pointer;
+  &:hover {
+    color: black;
+  }
+}
+.profileName{
+  width: 400px;
+}
+.profileLanguage {
+  width: 200px;
+}
+/* FINE PROFILE PAGE */
+ 
+/* SETTINGS PAGE */
+.settingsPage {
+  background-color: #fff;
+}
+/* .settingz {
+  display: flex;
+  justify-content: space-between;
+} */
+/* FINE SETTING PAGE */
+
+/* Wrapper adapted from CodePen */
+$itemGrow: 1.2;
+$duration: 250ms;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3,100%);
+  overflow:hidden;
+  scroll-behavior: smooth;
+
+  section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 20px 0;
+    
+    .item {
+      padding: 0 2px;
+      transition: $duration all;
+      &:hover { 
+        cursor: pointer;
+        margin: 0 40px;
+        transform: scale(1.2);
+      }
+    }
+    
+    a {
+      position: absolute;
+      color: #fff;
+      text-decoration: none;
+      font-size: 6em;
+      background:rgb(0,0,0);
+      width: 80px;
+      padding: 20px;
+      text-align: center;
+      z-index: 1;
+      
+      &:nth-of-type(1) {
+        top:0; bottom:0; left:0;
+        background: linear-gradient(-90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+      }
+      &:nth-of-type(2) {
+        top:0; bottom:0; right: 0;
+        background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+      }
+      
+    }
+    
+  }
+}
+
+// Remove the arrow for Mobile
+@media only screen and (max-width: 600px) {
+  a.arrow__btn {
+    display:none;
+  }
+}
+

@@ -1,0 +1,13 @@
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables'; //La variabile themeColors è dichiarata in questo file.
+
+$customGrey: #838383;
+
+$custom-colors: (
+    customGrey: $customGrey //Nome da utilizzare, ovviamente il primo.
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

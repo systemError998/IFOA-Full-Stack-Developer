@@ -1,0 +1,17 @@
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables'; //La variabile themeColors è dichiarata in questo file.
+
+$purple: #712fdb;
+$customGreen: #1ACB98;
+$customOrange: #FFEEDA;
+
+$custom-colors: (
+    "purple": $purple,
+    "greenButton": $customGreen,
+    "orangeIcon": $customOrange
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss'

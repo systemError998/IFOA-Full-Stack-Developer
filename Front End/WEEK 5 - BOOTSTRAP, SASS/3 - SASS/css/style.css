@@ -1,0 +1,53 @@
+/* TIPO BOOLEANO */
+/* TIPO MAP */
+/* TIPO STRINGA */
+/* TIPO NUMERO */
+header {
+  text-align: center;
+}
+
+/* main {
+    background-color: yellowgreen;
+    text-align: center;
+    border: 1px solid black;
+}
+
+main h2 {
+    font-style: italic;
+}
+
+main p {
+    text-decoration: underline;
+} */
+/* NESTING */
+main {
+  background-color: yellowgreen;
+  text-align: center;
+  border: 1px solid black;
+}
+main h2 {
+  font-style: italic;
+}
+main p {
+  text-decoration: underline;
+}
+main a {
+  color: red;
+}
+main a:hover {
+  color: fuchsia;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+}
+
+body {
+  background-color: cyan;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 3em;
+}/*# sourceMappingURL=style.css.map */

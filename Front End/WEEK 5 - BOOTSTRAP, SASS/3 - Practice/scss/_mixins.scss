@@ -1,0 +1,19 @@
+@mixin title-big {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #290550;
+}
+
+@mixin flaoting($width, $height, $bordo , $radius, $shadow){
+    border: $bordo; 
+    border-radius: $radius /* 10px */;
+    box-shadow: $shadow;/* 10px 10px 10px 10px grey */;
+    width: $width;
+    height: $height;
+}
+
+@mixin navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}

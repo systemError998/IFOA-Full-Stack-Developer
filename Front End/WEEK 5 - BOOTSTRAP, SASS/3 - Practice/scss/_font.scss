@@ -1,0 +1,22 @@
+$fontBasic: 1rem;
+$fontMedium: 1.5rem;
+$fontBig: 2rem;
+
+$fontBoldato: 900;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    font-size: $fontMedium;
+    font-weight: $fontBoldato;
+}
+
+.hero {
+    div {
+        p {
+            font-size: $fontBig;
+        }
+    }
+}

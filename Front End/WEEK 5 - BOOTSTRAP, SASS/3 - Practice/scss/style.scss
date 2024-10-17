@@ -1,0 +1,66 @@
+@import 'reset';
+@import 'animation';
+@import 'colori';
+@import 'bottoni';
+@import 'font';
+@import 'mixins';
+@import 'spaziature';
+
+$cardImg: 200px;
+.hero {
+    div {
+        width: 65%;
+    }
+    padding: $bigPadding;
+    h1 {
+        @include title-big;
+    }
+    p {
+        color: $whiteText;
+        font-size: $fontMedium;
+    }
+    img {
+        @include flaoting(400px, 400px, 1px double white, 10px, 2px 2px 2px 2px grey);
+    }
+}
+
+header {
+    background-color: $bgHero;
+} 
+
+nav {
+    @include navbar;
+}
+
+ul {
+    li {
+
+        a {
+            color: $whiteText;
+        }
+    }
+}
+
+div {
+    .btn {
+        padding: $paddingBtn;
+        border-radius: $borderBtn;
+        color: $whiteText;
+        border: none;
+    }
+    .button1 {
+        background-color: $button1;
+    }
+    .button2 {
+        background-color: $button2;
+    }
+    .button3 {
+        background-color: $button3; 
+    }
+}
+
+.line-4 {
+    display: grid;
+}
+
+

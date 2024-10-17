@@ -1,0 +1,23 @@
+/* TIPO BOOLEANO */
+$media: true;
+/* TIPO MAP */
+$set-colori: (bianco: #fff, grigio: rgb(102, 102, 102));
+/* TIPO STRINGA */
+$colore: cyan;
+/* TIPO NUMERO */
+$size: 1.5em;
+$fontArial: Arial;
+
+@import '_header';
+@import '_main';
+@import '_footer';
+
+body {
+    background-color: $colore;
+    
+}
+
+h1 {
+    font-family: $fontArial;
+    font-size: $size*2;
+}
