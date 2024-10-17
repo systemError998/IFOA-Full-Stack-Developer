@@ -1,0 +1,13 @@
+.logo {
+    width: 100px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.iconz {
+    width: 2rem;
+    height: 2rem;
+}

@@ -1,0 +1,14 @@
+.myNavbar {
+    background-color: rgba(95, 182, 216, 1);
+    
+}
+
+.myCard, .mySearchBar{
+    width: '50rem'
+    background-color: rgba(95, 182, 216, 0.4);
+}
+
+.myCardResult {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,8 @@
+:root {
+    background-color: rgba(155, 226, 242, 1);
+}
+
+body {
+    background: url('../src/assets/bg-2.jpg');
+    background-repeat: no-repeat;
+}
